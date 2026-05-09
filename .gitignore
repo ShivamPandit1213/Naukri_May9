@@ -1,0 +1,23 @@
+# --- Maven & TestNG Output ---
+target/
+test-output/
+bin/
+*.log
+*.class
+
+# --- Screenshots (Crucial for Repo Size) ---
+src/test/resources/screenshots/
+
+# --- IDE Specific (Eclipse/IntelliJ) ---
+.settings/
+.classpath
+.project
+.metadata/
+.idea/
+*.iml
+
+# --- System & Temporary Files ---
+/temp/
+.DS_Store
+Thumbs.db
+*.exe
